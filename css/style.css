@@ -280,13 +280,19 @@ h4{
     text-shadow: 4px 6px 7px rgba(0, 0, 0, 0.276);
 }
 
-.formacion--container{
+.formacion{
     width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.formacion--container{
     display: flex;
     height: 550px;
-    background: #ffffff;
     width: 100%;
     align-items: center;
+    justify-content: space-around;
 }
 
 h5{
