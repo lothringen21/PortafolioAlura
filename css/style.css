@@ -280,7 +280,15 @@ h4{
     text-shadow: 4px 6px 7px rgba(0, 0, 0, 0.276);
 }
 
+
 .formacion{
+    background: #FCDAD2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.formacion--container{
     width: 100%;
     background-color: white;
     display: flex;
@@ -290,10 +298,11 @@ h4{
 .formacion--container{
     display: flex;
     height: 550px;
+
     width: 100%;
     align-items: center;
     justify-content: space-around;
-}
+  }
 
 h5{
     font-size: 52px;
@@ -338,11 +347,21 @@ h5{
 
 .seccion--contacto{
     display: flex;
-    width: 90%;
+    width: 100%;
     padding: 20px;
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    background: #FFC2D2;
+}
+
+.container--formulario{
+    width: 50%;
+}
+
+.formulario{
+    background: #FCDAD2;
+    margin-top: 15px;
 }
 
 h6{
@@ -364,7 +383,7 @@ h6{
     width: 100%;
     padding-top: 64px;
     align-items: center;
-    gap: 20px;
+    justify-content: center;
 }
 
 .contacto--imagen{
@@ -378,6 +397,8 @@ h6{
     align-items: flex-start;
     gap: 10px;
     width: 90%;
+    margin: 50px;
+    padding-bottom: 20px;
     
 }
 
@@ -396,7 +417,6 @@ h6{
 }
 
 #mensaje{
-    width: 100%;
     align-self: stretch;
     font-family: 'Krub';
     
@@ -410,15 +430,19 @@ textarea::placeholder{
 .boton--contacto{
     display: flex;
     padding: 16px;
+    width: 30%;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    background: #8687D0;
-    color: #FFF;
+    background: linear-gradient(#FCDAD2, #F48FB1);
+    color: #000;
     border-radius: 4px; 
     border: none;
     cursor: pointer;
+    font-family: 'Shadows Into Light';
+    font-size: 20px;
 }
+
 
 .boton--contacto:hover{
     background: linear-gradient(to bottom right, #F48FB1, #8687D0);

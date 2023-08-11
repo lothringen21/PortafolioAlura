@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@300;700&family=Shadows+Into+Light&display=swap"
         rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@300;700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="shortcurt icon" href="img/portafolios.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="Bootstrap/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -193,6 +197,7 @@
                 </div>
         </section>
         <section class="seccion--contacto">
+
             <h6>Contáctame</h6>
             <p class="contacto--descripcion">Completa el siguiente formulario <br> y me pondré en contacto contigo lo
                 antes posible.</p>
@@ -212,6 +217,38 @@
                         placeholder="Describe tu duda."></textarea>
                     <button type="submit" class="boton--contacto" id="boton--contacto">Enviar</button>
                 </form>
+
+            <div class="container--formulario">
+                <div class="contacto--container">
+                <img class="contacto--imagen" src="img/gato-computadora.gif" alt="gato">
+                </div>
+                <div class="formulario">
+                    <h6>Contáctame</h6>
+                    <p class="contacto--descripcion">Completa el siguiente formulario <br> y me pondré en contacto contigo lo antes posible.</p>
+                    <form class="label--contacto">
+                        <label class="titulo--label" for="nombre">Nombre</label>
+                        <input class="caja--texto" type="text" name="nombre" id="nombre" required placeholder="Nombre"/>
+                        <label class="titulo--label" for="email">Email</label>
+                        <input class="caja--texto" type="email" name="email" id="email" required placeholder="email@dominio.com" pattern="[a-zA-Z0-9._\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z]{2,}"/>
+                        <label class="titulo--label" for="asunto">Asunto</label>
+                        <input class="caja--texto" type="text" name="Asunto" id="asunto" required placeholder="Quisiera saber si..."/>
+                        <label class="titulo--label" for="mensaje_label">Mensaje</label>
+                        <textarea class="caja--texto name="mensaje" id="mensaje" rows="5" required placeholder="Describe tu duda."></textarea>
+                        <button type="submit" class="boton--contacto" id="boton--contacto" >Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="footer--container">
+                <h6 class="footer--titulo">Portafolio Alura creado por Lorena Quevedo</h6>
+                <p class="footer--descripcion">Copyright 2023 Todos los derechos reservados</p>
+            </div>
+            <div class="footer--socialMedia">
+                <a href=""><img class="socialMedia" src="" alt=""></a>
+                <a href=""><img class="socialMedia" src="" alt=""></a>
+                <a href=""><img class="socialMedia" src="" alt=""></a>
+                <a href=""><img class="socialMedia" src="" alt=""></a>
             </div>
         </section>
     </main>
